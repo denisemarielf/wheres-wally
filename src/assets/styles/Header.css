@@ -1,0 +1,55 @@
+:root {
+    --color-red: #f42853;
+    --color-blue: #00acd8;
+}
+
+.header {
+    display: flex;
+    height: 125px;
+    justify-content: space-around;
+}
+
+.header-logo {
+    width: 100;
+    padding: 10px;
+}
+
+.header-logo-and-counter {
+    display: flex;
+    padding: 20px;
+}
+
+.header-characters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+}
+
+.header-characters-img {
+    border-radius: 100%;
+    width: 75px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.header-characters-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-character-name {
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.timer-and-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

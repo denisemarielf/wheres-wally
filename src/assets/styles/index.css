@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-red: #f42853;
+  --color-blue: #00adee;
+}
+
+body {
+  max-width: 100vw;
+  font-family: "Lalezar", cursive;
+  text-transform: uppercase;
+  height: fit-content;
+}
+
+button {
+  width: 125px;
+  height: 50px;
+  background-color: var(--color-blue);
+  color: white;
+  border: 1px solid transparent;
+  font-size: medium;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}

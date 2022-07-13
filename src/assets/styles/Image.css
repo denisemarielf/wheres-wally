@@ -1,0 +1,89 @@
+.wally-image {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.found-character-wally,
+.found-character-odlaw,
+.found-character-wizard {
+    width: 100px;
+    height: 100px;
+    border: 5px solid green;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.found-character-wally {
+    bottom: 160px;
+    right: 460px;
+}
+
+.found-character-odlaw {
+    bottom: 175px;
+    right: 1150px;
+}
+
+.found-character-odlaw>img,
+.found-character-wally>img,
+.found-character-wizard>img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.found-character-wizard {
+    bottom: 175px;
+    right: 935px;
+}
+
+.start-game-container {
+    position: absolute;
+    width: 100%;
+    height: 875px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(2px);
+}
+
+.start-game-popup {
+    background-color: white;
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    border: 5px double black;
+}
+
+.start-game-popup-text {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 5px;
+}
+
+.start-game-popup-img {
+    align-self: flex-end;
+}
+
+.start-game-popup-button {
+    align-self: center;
+    margin-top: 25px;
+}
+
+.mistake-container {
+    position: absolute;
+    right: 40%;
+    top: 200px;
+    background-color: brown;
+    color: white;
+    width: 200px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+        rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    border-radius: 5px;
+}
